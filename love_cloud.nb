@@ -1,0 +1,174 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6108,        166]
+NotebookOptionsPosition[      4821,        137]
+NotebookOutlinePosition[      5221,        153]
+CellTagsIndexPosition[      5178,        150]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+Directory must be set to where the package GravAtomTLNs.wl was downloaded\
+\>", "Text",
+ CellChangeTimes->{{3.9361784601617937`*^9, 3.936178485251645*^9}, {
+  3.9361802245162373`*^9, 
+  3.9361802370806093`*^9}},ExpressionUUID->"8df6caa0-5e90-4b80-b9ca-\
+74e9721fd1c3"],
+
+Cell[BoxData[
+ RowBox[{"SetDirectory", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.936103009853351*^9, 3.93610302099507*^9}, {
+  3.936178340621134*^9, 3.9361783460064573`*^9}, {3.936178453991082*^9, 
+  3.93617845414605*^9}},ExpressionUUID->"187243e9-29da-40c5-a173-\
+decd17df3717"],
+
+Cell[BoxData[
+ RowBox[{"<<", "GravAtomTLNs`"}]], "Input",
+ CellEvaluationLanguage->"Python",
+ CellChangeTimes->{{3.9361783486921473`*^9, 3.936178364666253*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"0e449ec3-c868-42e6-bd6f-ea9eb5370826"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"li", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mi", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"l", "=", "2"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Lovenumber", "[", 
+  RowBox[{"n", ",", "li", ",", "mi", ",", "l"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Clear", "[", 
+  RowBox[{"n", ",", "li", ",", "mi", ",", "l"}], "]"}]}], "Input",
+ CellChangeTimes->{
+  3.935570046893999*^9, {3.93617836945492*^9, 3.936178370637971*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"c7dae34a-50eb-4ce3-a04e-e63b8af8c6dc"],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"7.499999934335649`", " ", "Mc"}], 
+  RowBox[{"MBH", " ", 
+   SuperscriptBox["\[Alpha]", "10"]}]]], "Output",
+ CellChangeTimes->{3.936178371354528*^9},
+ CellLabel->"Out[7]=",ExpressionUUID->"02d968f6-6c7a-454d-9d29-b0fd2d7082b0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", "1"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"li", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mi", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"l", "=", "2"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Lovenumber", "[", 
+  RowBox[{"n", ",", "li", ",", "mi", ",", "l"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Clear", "[", 
+  RowBox[{"n", ",", "li", ",", "mi", ",", "l"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.9361783771434927`*^9, 3.936178396082837*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"8f3b2c42-9615-4d7d-beba-5ba736557526"],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"8159.999314741972`", " ", "Mc"}], 
+  RowBox[{"MBH", " ", 
+   SuperscriptBox["\[Alpha]", "10"]}]]], "Output",
+ CellChangeTimes->{{3.936178390149413*^9, 3.936178396376342*^9}},
+ CellLabel->"Out[19]=",ExpressionUUID->"4d1da3f4-1506-49a8-9e47-08800719004a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"li", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mi", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"l", "=", "3"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Lovenumber", "[", 
+  RowBox[{"n", ",", "li", ",", "mi", ",", "l"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Clear", "[", 
+  RowBox[{"n", ",", "li", ",", "mi", ",", "l"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.936178404163206*^9, 3.936178418767497*^9}},
+ CellLabel->"In[45]:=",ExpressionUUID->"6516b7f3-ed5b-4f48-9a0d-a2f0b9314a14"],
+
+Cell[BoxData["\<\"Undefined\"\>"], "Print",
+ CellChangeTimes->{{3.936178415909133*^9, 3.93617841908185*^9}},
+ CellLabel->
+  "During evaluation of \
+In[45]:=",ExpressionUUID->"94eaff26-8f0c-4a1f-82ff-924061f87968"]
+}, Open  ]],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"n", "=", "2"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"li", "=", "2"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"mi", "=", "2"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"l", "=", "2"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Lovenumber", "[", 
+  RowBox[{"n", ",", "li", ",", "mi", ",", "l"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Clear", "[", 
+  RowBox[{"n", ",", "li", ",", "mi", ",", "l"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.9361784211978273`*^9, 3.9361784231054897`*^9}},
+ CellLabel->"In[51]:=",ExpressionUUID->"c49056d8-630f-41c9-8999-deb8d75a34a8"]
+},
+WindowSize->{606., 683.25},
+WindowMargins->{{Automatic, 405}, {Automatic, 82.5}},
+FrontEndVersion->"13.2 for Linux x86 (64-bit) (January 31, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"7879862b-d5c8-401e-b5b7-3c795a9ebc63"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 278, 6, 35, "Text",ExpressionUUID->"8df6caa0-5e90-4b80-b9ca-74e9721fd1c3"],
+Cell[839, 28, 281, 5, 29, "Input",ExpressionUUID->"187243e9-29da-40c5-a173-decd17df3717"],
+Cell[1123, 35, 238, 4, 29, "Input",ExpressionUUID->"0e449ec3-c868-42e6-bd6f-ea9eb5370826"],
+Cell[CellGroupData[{
+Cell[1386, 43, 656, 15, 133, "Input",ExpressionUUID->"c7dae34a-50eb-4ce3-a04e-e63b8af8c6dc"],
+Cell[2045, 60, 267, 6, 60, "Output",ExpressionUUID->"02d968f6-6c7a-454d-9d29-b0fd2d7082b0"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2349, 71, 635, 14, 133, "Input",ExpressionUUID->"8f3b2c42-9615-4d7d-beba-5ba736557526"],
+Cell[2987, 87, 292, 6, 60, "Output",ExpressionUUID->"4d1da3f4-1506-49a8-9e47-08800719004a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3316, 98, 633, 14, 133, "Input",ExpressionUUID->"6516b7f3-ed5b-4f48-9a0d-a2f0b9314a14"],
+Cell[3952, 114, 213, 4, 23, "Print",ExpressionUUID->"94eaff26-8f0c-4a1f-82ff-924061f87968"]
+}, Open  ]],
+Cell[4180, 121, 637, 14, 133, "Input",ExpressionUUID->"c49056d8-630f-41c9-8999-deb8d75a34a8"]
+}
+]
+*)
+
