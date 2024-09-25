@@ -13,6 +13,6 @@ The code is developed and maintained by Ricardo Arana, Richard Brito and Gonçal
 
 ricardo.arana@tecnico.ulisboa.pt, richard.brito@tecnico.ulisboa.pt and goncalo.e.castro@tecnico.ulisboa.pt
 
-If you make use of these notebooks for your own publications, please cite:
+If you make use of this code for your own publications, please cite:
 ```
 @article{XXX}
